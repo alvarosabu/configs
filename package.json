@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "license": "MIT",
   "author": "Alvaro Saburido <alvaro.saburido@gmail.com> (https://github.com/alvarosaburido/)",
-  "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "lint": "npx eslint --ext .js,.json,.vue --fix .",
