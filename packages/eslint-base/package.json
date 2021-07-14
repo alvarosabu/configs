@@ -1,0 +1,26 @@
+{
+  "name": "@asigloo/eslint-base",
+  "version": "0.1.1",
+  "description": "> TODO: description",
+  "homepage": "https://github.com/asigloo/configs#readme",
+  "author": "Alvaro Saburido <alvaro.saburido@gmail.com> (https://github.com/alvarosaburido/)",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asigloo/configs.git"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.3.2"
+  }
+}

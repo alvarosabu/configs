@@ -1,0 +1,21 @@
+{
+  "name": "@asigloo/prettier-config",
+  "version": "0.1.1",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Alvaro Saburido <alvaro.saburido@gmail.com> (https://github.com/alvarosaburido/)",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "prettier": ">=2.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^2.3.2"
+  }
+}
