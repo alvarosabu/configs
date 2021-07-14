@@ -1,6 +1,6 @@
 {
   "name": "@asigloo/eslint-config-vue",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "> TODO: description",
   "homepage": "https://github.com/asigloo/configs#readme",
   "author": "Alvaro Saburido <alvaro.saburido@gmail.com> (https://github.com/alvarosaburido/)",
@@ -19,7 +19,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@asigloo/eslint-base": "*",
+    "@asigloo/eslint-base": "^0.2.0",
     "eslint-plugin-vue": ">=3.0.0"
   },
   "devDependencies": {
