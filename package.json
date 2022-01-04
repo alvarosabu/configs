@@ -1,16 +1,16 @@
 {
-  "name": "@asigloo/config-monorepo",
-  "version": "0.1.0",
+  "name": "@alvarosabu/config-monorepo",
+  "version": "1.0.0",
   "license": "MIT",
-  "author": "Alvaro Saburido <alvaro.saburido@gmail.com> (https://github.com/alvarosaburido/)",
+  "author": "Alvaro Saburido <hola@alvarosaburido.dev> (https://github.com/alvarosabu/)",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "lint": "npx eslint --ext .js,.json,.vue --fix .",
     "release": "lerna publish --conventional-commits"
   },
   "devDependencies": {
-    "@asigloo/eslint-base": "*",
-    "@asigloo/prettier-config": "*",
+    "@alvarosabu/eslint-base": "*",
+    "@alvarosabu/prettier-config": "*",
     "lerna": "^4.0.0",
     "eslint": "^7.30.0",
     "typescript": "^4.3.5",

@@ -4,15 +4,15 @@ importers:
 
   .:
     specifiers:
-      '@asigloo/eslint-base': '*'
-      '@asigloo/prettier-config': '*'
+      '@alvarosabu/eslint-base': '*'
+      '@alvarosabu/prettier-config': '*'
       eslint: ^7.30.0
       lerna: ^4.0.0
       prettier: ^2.3.2
       typescript: ^4.3.5
     devDependencies:
-      '@asigloo/eslint-base': link:packages/eslint-base
-      '@asigloo/prettier-config': link:packages/prettier
+      '@alvarosabu/eslint-base': link:packages/eslint-base
+      '@alvarosabu/prettier-config': link:packages/prettier
       eslint: 7.30.0
       lerna: 4.0.0
       prettier: 2.3.2
@@ -36,11 +36,11 @@ importers:
 
   packages/vue:
     specifiers:
-      '@asigloo/eslint-base': '*'
+      '@alvarosabu/eslint-base': ^0.2.0
       eslint: ^7.30.0
       eslint-plugin-vue: '>=3.0.0'
     dependencies:
-      '@asigloo/eslint-base': link:../eslint-base
+      '@alvarosabu/eslint-base': link:../eslint-base
       eslint-plugin-vue: 7.13.0_eslint@7.30.0
     devDependencies:
       eslint: 7.30.0
@@ -1817,6 +1817,7 @@ packages:
 
   /encoding/0.1.13:
     resolution: {integrity: sha512-ETBauow1T35Y/WZMkio9jiM0Z5xjHHmJ4XmjZOq1l/dXz3lr2sRn87nJy20RupqSh1F2m3HHPSp8ShIPQJrJ3A==}
+    requiresBuild: true
     dependencies:
       iconv-lite: 0.6.3
     dev: true
@@ -4998,6 +4999,7 @@ packages:
     resolution: {integrity: sha512-57H3ACYFXeo1IaZ1w02sfA71wI60MGco/IQFjOqK+WtKoprh7Go2/yvd2HPtoJILO2Or84ncLccI4xoHMTSbGg==}
     engines: {node: '>=0.8.0'}
     hasBin: true
+    requiresBuild: true
     dev: true
     optional: true
 

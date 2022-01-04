@@ -1,5 +1,5 @@
 57 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin main
-57 error ERROR: Permission to asigloo/configs.git denied to alvarosaburido-porsche.
+57 error ERROR: Permission to alvarosabu/configs.git denied to alvarosabu-porsche.
 57 error fatal: Could not read from remote repository.
 57 error
 57 error Please make sure you have the correct access rights

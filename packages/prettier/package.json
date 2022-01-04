@@ -1,10 +1,10 @@
 {
-  "name": "@asigloo/prettier-config",
+  "name": "@alvarosabu/prettier-config",
   "version": "0.2.0",
   "description": "",
   "keywords": [],
   "license": "MIT",
-  "author": "Alvaro Saburido <alvaro.saburido@gmail.com> (https://github.com/alvarosaburido/)",
+  "author": "Alvaro Saburido <hola@alvarosaburido.dev> (https://github.com/alvarosabu/)",
   "files": [
     "index.js"
   ],

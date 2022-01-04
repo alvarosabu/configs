@@ -1,9 +1,9 @@
 {
-  "name": "@asigloo/eslint-config-vue",
+  "name": "@alvarosabu/eslint-config-vue",
   "version": "0.2.0",
-  "description": "> TODO: description",
-  "homepage": "https://github.com/asigloo/configs#readme",
-  "author": "Alvaro Saburido <alvaro.saburido@gmail.com> (https://github.com/alvarosaburido/)",
+  "description": "ESLint base configuration for Vue related projects",
+  "homepage": "https://github.com/alvarosabu/configs#readme",
+  "author": "Alvaro Saburido <hola@alvarosaburido.dev> (https://github.com/alvarosabu/)",
   "files": [
     "index.js"
   ],
@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/asigloo/configs.git"
+    "url": "git+https://github.com/alvarosabu/configs.git"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@asigloo/eslint-base": "^0.2.0",
+    "@alvarosabu/eslint-base": "^0.2.0",
     "eslint-plugin-vue": ">=3.0.0"
   },
   "devDependencies": {

@@ -4,10 +4,10 @@
   },
   "1 debug pnpm:package-manifest": {
     "initial": {
-      "name": "@asigloo/config-monorepo",
+      "name": "@alvarosabu/config-monorepo",
       "version": "0.1.0",
       "license": "MIT",
-      "author": "Alvaro Saburido <alvaro.saburido@gmail.com> (https://github.com/alvarosaburido/)",
+      "author": "Alvaro Saburido <hola@alvarosaburido.dev> (https://github.com/alvarosabu/)",
       "private": true,
       "scripts": {
         "preinstall": "npx only-allow pnpm",
@@ -15,7 +15,7 @@
         "release": "lerna publish --conventional-commits"
       },
       "devDependencies": {
-        "@asigloo/eslint-base": "*",
+        "@alvarosabu/eslint-base": "*",
         "lerna": "^4.0.0",
         "eslint": "^7.30.0",
         "typescript": "^4.3.5",
@@ -35,21 +35,21 @@
   },
   "4 error pnpm": {
     "code": "ERR_PNPM_FETCH_404",
-    "hint": "@asigloo/eslint-base is not in the npm registry, or you have no permission to fetch it.\n\nNo authorization header was set for the request.",
+    "hint": "@alvarosabu/eslint-base is not in the npm registry, or you have no permission to fetch it.\n\nNo authorization header was set for the request.",
     "request": {
-      "url": "https://registry.npmjs.org/@asigloo%2Feslint-base"
+      "url": "https://registry.npmjs.org/@alvarosabu%2Feslint-base"
     },
     "response": {
       "size": 0,
       "timeout": 60000
     },
-    "pkgName": "@asigloo/eslint-base",
+    "pkgName": "@alvarosabu/eslint-base",
     "pkgsStack": [],
     "err": {
       "name": "Error",
-      "message": "GET https://registry.npmjs.org/@asigloo%2Feslint-base: Not Found - 404",
+      "message": "GET https://registry.npmjs.org/@alvarosabu%2Feslint-base: Not Found - 404",
       "code": "ERR_PNPM_FETCH_404",
-      "stack": "Error: GET https://registry.npmjs.org/@asigloo%2Feslint-base: Not Found - 404\n    at RetryOperation._fn (/Users/x400048/.nvm/versions/node/v16.3.0/lib/node_modules/pnpm/dist/pnpm.cjs:79073:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+      "stack": "Error: GET https://registry.npmjs.org/@alvarosabu%2Feslint-base: Not Found - 404\n    at RetryOperation._fn (/Users/x400048/.nvm/versions/node/v16.3.0/lib/node_modules/pnpm/dist/pnpm.cjs:79073:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
     }
   }
 }

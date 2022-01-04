@@ -1,9 +1,9 @@
 {
-  "name": "@asigloo/eslint-base",
+  "name": "@alvarosabu/eslint-base",
   "version": "0.2.0",
   "description": "> TODO: description",
-  "homepage": "https://github.com/asigloo/configs#readme",
-  "author": "Alvaro Saburido <alvaro.saburido@gmail.com> (https://github.com/alvarosaburido/)",
+  "homepage": "https://github.com/alvarosabu/configs#readme",
+  "author": "Alvaro Saburido <hola@alvarosaburido.dev> (https://github.com/alvarosabu/)",
   "files": [
     "index.js"
   ],
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/asigloo/configs.git"
+    "url": "git+https://github.com/alvarosabu/configs.git"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"

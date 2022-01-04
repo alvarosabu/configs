@@ -4,6 +4,6 @@ module.exports = {
     browser: true,
     node: true,
   },
-  extends: ['@asigloo/eslint-base', 'plugin:vue/vue3-recommended'],
+  extends: ['@alvarosabu/eslint-base', 'plugin:vue/vue3-recommended'],
   plugins: ['vue'],
 }
