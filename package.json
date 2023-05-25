@@ -11,7 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "bumpp": "^9.1.0",
-    "@alvarosabu/eslint-config-base": "workspace:*",
+    "@alvarosabu/eslint-config": "workspace:*",
     "eslint": "^8.41.0"
   }
 }

@@ -16,6 +16,21 @@ module.exports = {
       node: { extensions: ['.js', '.mjs'] },
     },
   },
+  overrides: [
+    {
+      files: ['*.d.ts'],
+      rules: {
+        'import/no-duplicates': 'off',
+      },
+    },
+    {
+      files: ['*.js', '*.cjs', '*.jsx'],
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off',
+        '@typescript-eslint/no-require-imports': 'off',
+      },
+    },
+  ],
   ignorePatterns: [
     '*.min.*',
     '*.d.ts',

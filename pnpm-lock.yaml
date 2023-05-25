@@ -4,9 +4,9 @@ importers:
 
   .:
     devDependencies:
-      '@alvarosabu/eslint-config-base':
+      '@alvarosabu/eslint-config':
         specifier: workspace:*
-        version: link:packages/eslint-config-base
+        version: link:packages/eslint-config
       bumpp:
         specifier: ^9.1.0
         version: 9.1.0
