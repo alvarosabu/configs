@@ -4,6 +4,9 @@
   "author": "Alvaro Saburido <hola@alvarosaburido.dev> (https://github.com/alvarosabu/)",
   "packageManager": "pnpm@8.5.1",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "eslint-config"
   ],
