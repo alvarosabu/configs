@@ -1,0 +1,29 @@
+{
+  "name": "@alvarosabu/eslint-config-ts",
+  "version": "0.1.0",
+  "author": "Alvaro Saburido <hola@alvarosaburido.dev> (https://github.com/alvarosabu/)",
+  "packageManager": "pnpm@8.5.1",
+  "license": "MIT",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@alvarosabu/eslint-config-base": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/parser": "^5.59.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0"
+  }
+}

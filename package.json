@@ -1,0 +1,16 @@
+{
+  "name": "@alvarosabu/configs-monorepo",
+  "version": "0.1.0",
+  "author": "Alvaro Saburido <hola@alvarosaburido.dev> (https://github.com/alvarosabu/)",
+  "packageManager": "pnpm@8.5.1",
+  "scripts": {
+    "lint": "pnpm -r run stub && eslint .",
+    "release": "bumpp -r && pnpm -r publish"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "bumpp": "^9.1.0",
+    "@alvarosabu/eslint-config-base": "workspace:*",
+    "eslint": "^8.41.0"
+  }
+}
