@@ -92,6 +92,7 @@ module.exports = {
     'quote-props': ['error', 'as-needed'],
 
     // Common
+    'max-len': ['error', { code: 120, ignoreComments: true }],
     'no-var': 'warn',
     'prefer-const': [
       'error',
