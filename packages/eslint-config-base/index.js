@@ -95,7 +95,7 @@ module.exports = {
     'max-len': ['error', { code: 120, ignoreComments: true }],
     'no-var': 'warn',
     'no-multiple-empty-lines': ['error', { max: 1, maxEOF: 1 }],
-    'padding-line-between-statements': ['error', { blankLine: "always", prev: "var", next: "return" }],
+    'padding-line-between-statements': ['error', { blankLine: 'always', prev: 'var', next: 'return' }],
     'prefer-const': [
       'error',
       {

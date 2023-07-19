@@ -24,8 +24,8 @@
     "@alvarosabu/eslint-config-ts": "workspace:*"
   },
   "devDependencies": {
-    "eslint": "^8.41.0",
+    "eslint": "^8.45.0",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-unused-imports": "^2.0.0"
+    "eslint-plugin-unused-imports": "^3.0.0"
   }
 }
